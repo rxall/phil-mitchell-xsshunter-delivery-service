@@ -28,7 +28,7 @@ def send_request(hostname, quote, image):
 	payload = {'uri': 'https://www.facebook.com/utterphilth/videos/714075178978138/',
 			   'cookies': 'peggy=mitchell',
 			   'referrer': '',
-	           'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+			   'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
 			   'browser-time': int(round(time.time() * 1000)),
 
 			   #Actual probe uses a fake uuid
@@ -37,7 +37,7 @@ def send_request(hostname, quote, image):
 			   'injection_key': '[PROBE_ID]',
 			   'dom': quote,
 			   'screenshot': 'data:image/png;base64,' + image
-				}
+		  }
 
 	r = requests.post('https://' + hostname + '/js_callback', json=payload)
 	return r.status_code
@@ -52,7 +52,6 @@ def main():
 	print("Sending 10 Phils to " + args.hostname)
 
 	for i in range(10):
-
 		with open("images/" + str(i) + ".png", 'rb') as imgFile:
 		    image = base64.b64encode(imgFile.read())
 
