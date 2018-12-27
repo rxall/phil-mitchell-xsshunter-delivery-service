@@ -6,9 +6,13 @@ Sick of finding other people's [XSSHunter](https://xsshunter.com) payloads when 
 
 Spam their XSSHunter instance fake reports full of Phil Mitchell pictures.
 
-## Screenshot 
+## Screenshots
 
-![Screenshot showing tool worked](images/success.png "Success")
+### What the Bug Bounty hunter want to see
+![Screenshot showing expected outcome](images/expected.png "Expected")
+
+### What the Bug Bounty hunter actually sees
+![Screenshot showing actual outcome](images/success.png "Success")
 
 ## Usage
 
