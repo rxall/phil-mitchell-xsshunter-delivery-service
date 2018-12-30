@@ -8,7 +8,7 @@ Spam their XSSHunter instance fake reports full of Phil Mitchell pictures.
 
 ## Screenshots
 
-### What the Bug Bounty hunter want to see
+### What a Bug Bounty hunter wants to see
 ![Screenshot showing expected outcome](images/expected.png "Expected")
 
 ### What the Bug Bounty hunter actually sees
