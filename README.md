@@ -2,16 +2,16 @@
 
 ## Description
 
-Sick of finding other people's [XSSHunter](https://xsshunter.com) payloads when you are searching for bug bounty gold?
+Sick of finding other people's [XSSHunter](https://xsshunter.com) payloads when you are searching for bug bounties?
 
-Spam their XSSHunter instance fake reports full of Phil Mitchell pictures.
+PMXDaaS (Phil Mitchell XSSHunter Delivery as a Service) makes it easy to let them know how much you appreciate finding their payloads. Spam their XSSHunter instance with fake reports full of Phil Mitchell pictures.
 
 ## Screenshots
 
-### What a Bug Bounty hunter wants to see
+### What a bug hunter wants to see after an alert
 ![Screenshot showing expected outcome](images/expected.png "Expected")
 
-### What the Bug Bounty hunter actually sees
+### What a bug hunter actually sees after an alert
 ![Screenshot showing actual outcome](images/success.png "Success")
 
 ## Usage
@@ -67,9 +67,9 @@ Done
 [https://www.facebook.com/utterphilth/videos/714075178978138/](https://www.facebook.com/utterphilth/videos/714075178978138/)
 
 **Do you not like XSSHunter?**  
-I actually **like** [XSSHunter](https://xsshunter.com), it's a useful tool for discovering blind XSS.
+I **like** [XSSHunter](https://xsshunter.com), it's a useful tool for discovering blind XSS.
 
 ## Credits 
 
 [UtterPhilth](https://www.facebook.com/utterphilth/) for producing the finest Phil Mitchell content  
-[XSSHunter](https://xsshunter.com) and @IAmMandatory for developing it
+[XSSHunter](https://xsshunter.com) and [@mandatoryprogrammer](https://github.com/mandatoryprogrammer) for developing it
